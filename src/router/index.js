@@ -64,7 +64,12 @@ const router = createRouter({
                 {
                     path: 'material8',
                     component: () => import('../views/material/material8.vue')
-                }
+                },
+                {
+                    path: 'material9',
+                    component: () => import('../views/material/material9.vue')
+                },
+
             ]
         },
 

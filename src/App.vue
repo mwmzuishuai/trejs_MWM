@@ -2,10 +2,10 @@
   <div class="common-layout">
     <el-container style="height: 100%;">
       <!-- 左侧导航栏 -->
-      <el-aside style="background-color: #55efc4;position: relative;width: auto;overflow:visible;">
+      <el-aside style="background-color: #81ecec;position: relative;width: auto;overflow:visible;">
         <el-button type="info" icon="Operation" style="position: absolute;top: 0;right: -50px;z-index: 33;"
           @click="isCollapse = !isCollapse" />
-        <el-menu background-color="#ff9f1a" :collapse="isCollapse" @select="handleSelect" unique-opened
+        <el-menu background-color="#7bed9f" :collapse="isCollapse" @select="handleSelect" unique-opened
           class="el-menu-vertical-demo" default-active="1-1">
           <el-sub-menu v-for="item in menu" :index="item.index">
             <template #title>

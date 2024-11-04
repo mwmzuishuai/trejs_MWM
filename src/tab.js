@@ -14,7 +14,7 @@ const tabs = {
     '2-6': '/material/material6',
     '2-7': '/material/material7',
     '2-8': '/material/material8',
-    // '2-9': '/material/material9',
+    '2-9': '/material/material9',
     // '2-10': '/material/material10',
 
 }
@@ -97,11 +97,11 @@ const menu = [
 
                 index: '2-8',
             },
-            // {
-            //     name: 'outline4',
+            {
+                name: '顶点捕捉材质',
 
-            //     index: '2-9',
-            // },
+                index: '2-9',
+            },
             // {
             //     name: 'outline5',
 
